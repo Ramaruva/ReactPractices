@@ -1,14 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+const Person=(props)=>{
+   return(
+    <>
+      Name:{props.name}
+     </>
+   )
+}
+
 function App() {
   let name= "Pranita"
   return (
     <div className="App">
-     <h1>
-      Hello React
-           {name}
-     </h1>
+           <Person name={"Ram"}/>
     </div>
   );
 }

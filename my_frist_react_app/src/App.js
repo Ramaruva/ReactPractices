@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Mybutton from './Components/Mybutton';
 
 const Person=(props)=>{
    return(
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
            <Person name={"Ram"}/>
+           <Mybutton/>
     </div>
   );
 }

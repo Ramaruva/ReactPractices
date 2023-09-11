@@ -17,9 +17,11 @@ function App() {
     imageUrl:'https://i.imgur.com/yXOvdOSs.jpg',
     imageSize:90
   }
+  let bool=false;
   return (
     <div className="App">
            <Person name={"Ram"}/>
+           <Mybutton/>
            <Mybutton/>
 
            <h1>{obj.name}</h1>
@@ -31,6 +33,10 @@ function App() {
               height:obj.imageSize
              }}
            />
+
+      {
+        bool?(<Person name={"ravi"}/>) :( <Mybutton/>)
+      }
     </div>
   );
 }

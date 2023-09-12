@@ -23,7 +23,7 @@ function App() {
            <Person name={"Ram"}/>
            <Mybutton/>
            <Mybutton/>
-
+          <h1>sample here</h1>
            <h1>{obj.name}</h1>
            <img 
              className='avatar'
@@ -35,7 +35,6 @@ function App() {
            />
 
       {
-        bool?(<Person name={"ravi"}/>) :( <Mybutton/>)
       }
     </div>
   );
